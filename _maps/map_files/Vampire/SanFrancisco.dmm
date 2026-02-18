@@ -31170,6 +31170,21 @@
 /obj/item/storage/box/syringes,
 /turf/open/floor/plating/vampplating,
 /area/vtm/clinic)
+"fms" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 1;
+	pixel_y = 12
+	},
+/obj/effect/decal/shadow{
+	icon_state = "shadow-alt";
+	pixel_y = 32
+	},
+/obj/structure/ship/bollard/alt,
+/turf/open/floor/plating/vampwood,
+/area/vtm/northbeach)
 "fmG" = (
 /obj/item/storage/fancy/cigarettes/cigpack_robust,
 /obj/item/lighter/greyscale,
@@ -31397,6 +31412,18 @@
 /obj/effect/decal/ventilation_system,
 /turf/open/floor/plating/bacotell,
 /area/vtm/clinic)
+"fsp" = (
+/obj/structure/ship/bollard/alt{
+	icon = 'code/modules/wod13/icons_newvechle/boat_big.dmi';
+	icon_state = "boat_blue";
+	density = 1;
+	name = "boat";
+	dir = 4;
+	pixel_x = -48;
+	pixel_y = -32
+	},
+/turf/open/floor/plating/vampocean,
+/area/vtm)
 "fsG" = (
 /obj/structure/vampipe_corner{
 	dir = 1
@@ -32064,18 +32091,6 @@
 /obj/item/stack/cable_coil/five,
 /turf/open/floor/plating/vampplating,
 /area/vtm/interior/techshop)
-"fGx" = (
-/obj/structure/ship/bollard/alt{
-	icon = 'code/modules/wod13/icons_newvechle/boat_big.dmi';
-	icon_state = "boat_blue";
-	density = 1;
-	name = "boat";
-	dir = 4;
-	pixel_x = -48;
-	pixel_y = -32
-	},
-/turf/open/floor/plating/vampocean,
-/area/vtm)
 "fGD" = (
 /obj/structure/fluff/hedge,
 /obj/structure/railing,
@@ -34863,6 +34878,10 @@
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/pacificheights)
+"gQz" = (
+/obj/effect/decal/wallpaper/grey,
+/turf/closed/wall/vampwall/ship,
+/area/vtm/supply)
 "gQA" = (
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/sidewalk/old,
@@ -36966,25 +36985,6 @@
 	},
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
-"hJy" = (
-/obj/effect/turf_decal/stripes/line,
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 1
-	},
-/obj/structure/railing{
-	icon_state = "lowfence";
-	icon = 'code/modules/wod13/32x48.dmi'
-	},
-/obj/structure/ship/bollard/alt{
-	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
-	icon_state = "wooden_boat";
-	density = 1;
-	name = "boat";
-	dir = 4;
-	pixel_x = -16
-	},
-/turf/open/floor/plating/ship,
-/area/vtm/supply)
 "hJE" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /obj/effect/decal/bordur{
@@ -37386,6 +37386,19 @@
 /obj/structure/chair/sofa/corp/right,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/anarch)
+"hRK" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	icon_state = "lowfence";
+	icon = 'code/modules/wod13/32x48.dmi';
+	pixel_y = 22
+	},
+/turf/open/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/vtm/supply)
 "hRN" = (
 /turf/open/water{
 	color = "#222222";
@@ -38673,18 +38686,6 @@
 	},
 /turf/open/floor/plating/vampcanalplating,
 /area/vtm/interior/vjanitor)
-"isD" = (
-/obj/structure/ship/bollard/alt{
-	icon = 'code/modules/wod13/icons_newvechle/boat_big.dmi';
-	icon_state = "boat_gruz";
-	density = 1;
-	name = "boat";
-	dir = 4;
-	pixel_x = -48;
-	pixel_y = -32
-	},
-/turf/open/floor/plating/vampocean,
-/area/vtm)
 "isM" = (
 /obj/effect/decal/bordur{
 	dir = 8
@@ -39321,10 +39322,6 @@
 /obj/structure/coclock,
 /turf/open/floor/plating/concrete,
 /area/vtm/theatre)
-"iHv" = (
-/obj/effect/decal/wallpaper/grey,
-/turf/closed/wall/vampwall/ship,
-/area/vtm/supply)
 "iHA" = (
 /obj/structure/chair/pew/left{
 	dir = 1
@@ -41663,6 +41660,17 @@
 /obj/structure/bookcase/random/fiction,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
+"jDs" = (
+/obj/structure/ship/bollard/alt{
+	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
+	icon_state = "yellow_vesla_boat";
+	density = 1;
+	name = "boat";
+	dir = 8;
+	pixel_x = -16
+	},
+/turf/open/floor/plating/vampocean,
+/area/vtm)
 "jDt" = (
 /obj/effect/decal/ventilation_system{
 	dir = 9
@@ -43693,21 +43701,6 @@
 /obj/item/storage/belt/holster/detective/vampire/fbi,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
-"kBy" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
-	},
-/obj/effect/decal/shadow{
-	icon_state = "shadow-alt";
-	pixel_y = 32
-	},
-/obj/structure/ship/bollard/alt,
-/turf/open/floor/plating/vampwood,
-/area/vtm/northbeach)
 "kBE" = (
 /obj/structure/chair/sofa/right{
 	dir = 1
@@ -44601,6 +44594,17 @@
 	},
 /turf/open/floor/plating/vampwood,
 /area/vtm)
+"kXh" = (
+/obj/structure/ship/bollard/alt{
+	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
+	icon_state = "blue_engine_boat";
+	density = 1;
+	name = "boat";
+	dir = 4;
+	pixel_x = -16
+	},
+/turf/open/floor/plating/vampocean,
+/area/vtm)
 "kXk" = (
 /obj/structure/table/wood,
 /obj/item/paper,
@@ -45062,17 +45066,6 @@
 /obj/item/clothing/suit/caution,
 /turf/open/floor/plating/toilet,
 /area/vtm/interior/laundromat)
-"liq" = (
-/obj/structure/ship/bollard/alt{
-	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
-	icon_state = "yellow_vesla_boat";
-	density = 1;
-	name = "boat";
-	dir = 8;
-	pixel_x = -16
-	},
-/turf/open/floor/plating/vampocean,
-/area/vtm)
 "lis" = (
 /obj/structure/vamptree,
 /turf/open/floor/plating/vampgrass,
@@ -48382,17 +48375,6 @@
 	},
 /turf/closed/wall/vampwall/painted/low/window,
 /area/vtm/interior/police)
-"mGS" = (
-/obj/structure/ship/bollard/alt{
-	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
-	icon_state = "red_engine_boat";
-	density = 1;
-	name = "boat";
-	dir = 8;
-	pixel_x = -16
-	},
-/turf/open/floor/plating/vampocean,
-/area/vtm)
 "mGY" = (
 /obj/effect/landmark/npcbeacon/directed{
 	dir = 8
@@ -50978,19 +50960,6 @@
 /obj/structure/fluff/hedge,
 /turf/open/floor/plating/vampplating,
 /area/vtm/camarilla)
-"nOb" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/railing{
-	icon_state = "lowfence";
-	icon = 'code/modules/wod13/32x48.dmi';
-	pixel_y = 22
-	},
-/turf/open/floor/plasteel/stairs{
-	dir = 8
-	},
-/area/vtm/supply)
 "nOh" = (
 /obj/structure/chair/comfy/brown{
 	dir = 8
@@ -51402,6 +51371,26 @@
 /obj/structure/vampdoor,
 /turf/open/floor/plating/toilet,
 /area/vtm/clinic)
+"nWO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	icon_state = "lowfence";
+	icon = 'code/modules/wod13/32x48.dmi';
+	pixel_y = 22
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/obj/structure/ship/bollard/alt{
+	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
+	icon_state = "wooden_boat";
+	density = 1;
+	name = "boat";
+	dir = 4;
+	pixel_x = -16
+	},
+/turf/open/floor/plating/ship,
+/area/vtm/supply)
 "nWP" = (
 /obj/structure/chair/plastic,
 /obj/structure/vampipe_manifold_random{
@@ -53383,6 +53372,18 @@
 /obj/structure/closet/crate/large,
 /turf/open/floor/plating/rough,
 /area/vtm/anarch)
+"oNL" = (
+/obj/structure/ship/bollard/alt{
+	icon = 'code/modules/wod13/icons_newvechle/boat_big.dmi';
+	icon_state = "boat_standart";
+	density = 1;
+	name = "boat";
+	dir = 4;
+	pixel_x = -48;
+	pixel_y = -32
+	},
+/turf/open/floor/plating/vampocean,
+/area/vtm)
 "oNQ" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -54884,6 +54885,18 @@
 /obj/structure/punching_bag,
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
+"pvv" = (
+/obj/structure/ship/bollard/alt{
+	icon = 'code/modules/wod13/icons_newvechle/boat_big.dmi';
+	icon_state = "boat_gruz";
+	density = 1;
+	name = "boat";
+	dir = 4;
+	pixel_x = -48;
+	pixel_y = -32
+	},
+/turf/open/floor/plating/vampocean,
+/area/vtm)
 "pvA" = (
 /obj/structure/bricks,
 /turf/open/floor/plating/vampplating/mono,
@@ -56881,6 +56894,17 @@
 /obj/item/folder/blue,
 /turf/closed/wall/vampwall/painted/low,
 /area/vtm/interior)
+"qpt" = (
+/obj/structure/ship/bollard/alt{
+	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
+	icon_state = "red_engine_boat";
+	density = 1;
+	name = "boat";
+	dir = 8;
+	pixel_x = -16
+	},
+/turf/open/floor/plating/vampocean,
+/area/vtm)
 "qpB" = (
 /obj/structure/table/glass,
 /obj/item/storage/fancy/cigarettes/cigars/havana{
@@ -57818,6 +57842,10 @@
 /obj/item/storage/pill_bottle/lsd,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
+"qHL" = (
+/obj/effect/landmark/sarcophagus,
+/turf/open/floor/plating/ship/alt,
+/area/vtm/supply)
 "qHM" = (
 /obj/effect/turf_decal/siding/wideplating/dark{
 	dir = 4
@@ -58072,17 +58100,6 @@
 	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/endronoffice)
-"qOu" = (
-/obj/structure/ship/bollard/alt{
-	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
-	icon_state = "blue_engine_boat";
-	density = 1;
-	name = "boat";
-	dir = 4;
-	pixel_x = -16
-	},
-/turf/open/floor/plating/vampocean,
-/area/vtm)
 "qOz" = (
 /obj/structure/showcase/horrific_experiment,
 /turf/open/floor/plasteel/elevatorshaft{
@@ -65142,26 +65159,6 @@
 /obj/effect/decal/wallpaper/paper/green,
 /turf/closed/wall/vampwall/junk/alt,
 /area/vtm/sewer/nosferatu_town)
-"tWQ" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/structure/railing{
-	icon_state = "lowfence";
-	icon = 'code/modules/wod13/32x48.dmi';
-	pixel_y = 22
-	},
-/obj/effect/turf_decal/stripes/white/line,
-/obj/structure/ship/bollard/alt{
-	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
-	icon_state = "wooden_boat";
-	density = 1;
-	name = "boat";
-	dir = 4;
-	pixel_x = -16
-	},
-/turf/open/floor/plating/ship,
-/area/vtm/supply)
 "tWW" = (
 /obj/structure/table/bronze,
 /obj/item/food/grown/cabbage,
@@ -65423,18 +65420,6 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/mansion)
-"udW" = (
-/obj/structure/ship/bollard/alt{
-	icon = 'code/modules/wod13/icons_newvechle/boat_big.dmi';
-	icon_state = "boat_standart";
-	density = 1;
-	name = "boat";
-	dir = 4;
-	pixel_x = -48;
-	pixel_y = -32
-	},
-/turf/open/floor/plating/vampocean,
-/area/vtm)
 "udX" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -67893,12 +67878,6 @@
 /obj/item/reagent_containers/food/drinks/beer/vampire/blue_stripe,
 /turf/open/floor/plating/concrete,
 /area/vtm/supply)
-"vcW" = (
-/obj/structure/railing,
-/obj/effect/turf_decal/siding/wood,
-/obj/structure/ship/bollard/alt,
-/turf/open/floor/plating/vampwood,
-/area/vtm/northbeach)
 "vcX" = (
 /obj/structure/fluff/hedge,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -72965,6 +72944,10 @@
 /obj/item/reagent_containers/food/drinks/bottle/vampirecola/summer_thaw,
 /turf/open/floor/plating/concrete,
 /area/vtm/anarch)
+"xie" = (
+/obj/cargocrate,
+/turf/open/floor/plating/ship,
+/area/vtm/supply)
 "xif" = (
 /obj/structure/chair{
 	dir = 4
@@ -72979,6 +72962,12 @@
 /mob/living/carbon/human/npc/incel,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior/laundromat)
+"xjc" = (
+/obj/structure/railing,
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/ship/bollard/alt,
+/turf/open/floor/plating/vampwood,
+/area/vtm/northbeach)
 "xjd" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 9
@@ -73529,6 +73518,25 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/plating/parquetry/old,
 /area/vtm/interior)
+"xwU" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/obj/structure/railing{
+	icon_state = "lowfence";
+	icon = 'code/modules/wod13/32x48.dmi'
+	},
+/obj/structure/ship/bollard/alt{
+	icon = 'code/modules/wod13/icons_newvechle/boat.dmi';
+	icon_state = "wooden_boat";
+	density = 1;
+	name = "boat";
+	dir = 4;
+	pixel_x = -16
+	},
+/turf/open/floor/plating/ship,
+/area/vtm/supply)
 "xxf" = (
 /obj/effect/landmark/npcbeacon,
 /obj/effect/landmark/npcability,
@@ -141842,7 +141850,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 ibp
 cFT
 kXz
@@ -142099,7 +142107,7 @@ aiw
 aiw
 aiw
 aKc
-iHv
+gQz
 eef
 bsY
 ryP
@@ -142355,7 +142363,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 hTx
 jzM
 xNL
@@ -142868,7 +142876,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 bQF
 fod
 vRj
@@ -143125,7 +143133,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 wzu
 aaT
 adS
@@ -143382,7 +143390,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 adS
 aaT
 adS
@@ -143639,7 +143647,7 @@ aiw
 aiw
 aiw
 aKc
-iHv
+gQz
 pRm
 aaT
 adS
@@ -143895,7 +143903,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 adS
 adS
 aaT
@@ -144152,7 +144160,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 adS
 whx
 aaT
@@ -144168,7 +144176,7 @@ aiw
 wGg
 atU
 auh
-isD
+pvv
 aiw
 aiw
 tgk
@@ -144409,7 +144417,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 adS
 adS
 aaT
@@ -144666,7 +144674,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 adS
 adS
 aaT
@@ -144923,7 +144931,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 pRm
 adS
 aaT
@@ -145180,7 +145188,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 adS
 whx
 aaT
@@ -145437,7 +145445,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 adS
 adS
 aaT
@@ -145694,7 +145702,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 adS
 nZg
 fod
@@ -145951,7 +145959,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 adS
 hXj
 aaT
@@ -146208,7 +146216,7 @@ aiw
 aiw
 aiw
 aiw
-iHv
+gQz
 bnb
 rqu
 aaT
@@ -146468,7 +146476,7 @@ aiw
 aKc
 aKc
 aKc
-iHv
+gQz
 uPm
 sCA
 weu
@@ -146725,7 +146733,7 @@ aiw
 dji
 erc
 tZc
-iHv
+gQz
 tRh
 nEP
 wgD
@@ -146982,7 +146990,7 @@ aiw
 dji
 tBV
 tZc
-iHv
+gQz
 lNy
 wgD
 vfo
@@ -154927,7 +154935,7 @@ atf
 atn
 atS
 auh
-udW
+oNL
 aiw
 aiw
 aiw
@@ -155178,11 +155186,11 @@ aiw
 aiw
 aiw
 aiw
-mGS
-kBy
+qpt
+fms
 atf
 wBZ
-vcW
+xjc
 auh
 aiw
 aiw
@@ -155692,13 +155700,13 @@ aiw
 aiw
 aiw
 aiw
-fGx
-kBy
+fsp
+fms
 atf
 atf
-vcW
+xjc
 aui
-liq
+jDs
 aiw
 aiw
 apg
@@ -156207,10 +156215,10 @@ aiw
 aiw
 aiw
 aiw
-kBy
+fms
 atf
 atf
-vcW
+xjc
 auh
 apg
 akG
@@ -156463,7 +156471,7 @@ aiw
 aiw
 aiw
 aiw
-qOu
+kXh
 asP
 atf
 atf
@@ -209179,7 +209187,7 @@ yiU
 wtw
 wtw
 wtw
-wtw
+xie
 wtw
 wtw
 wtw
@@ -209436,7 +209444,7 @@ adS
 bHA
 fEz
 adS
-bHA
+adS
 adS
 ads
 adS
@@ -210464,7 +210472,7 @@ adS
 bHA
 fEz
 adS
-adS
+qHL
 adS
 ads
 adS
@@ -211230,7 +211238,7 @@ aiA
 aiA
 aiA
 aiA
-tWQ
+nWO
 adS
 adS
 fEz
@@ -211240,7 +211248,7 @@ jzM
 ads
 adS
 adS
-hJy
+xwU
 aiA
 aiA
 aiA
@@ -211744,7 +211752,7 @@ aiA
 aiA
 aiA
 aiA
-tWQ
+nWO
 adS
 adS
 acP
@@ -211754,7 +211762,7 @@ rVJ
 hht
 mkO
 adS
-hJy
+xwU
 aiA
 aiA
 aiA
@@ -212258,7 +212266,7 @@ aiA
 aiA
 aiA
 aiA
-nOb
+hRK
 vIw
 sCA
 kMJ
