@@ -189,7 +189,7 @@
 
 /////// [T.WINER] - По просьбе Флава сделал так, что инициация взрыва происходит только при взрыве, в руке не идет
 
-/obj/item/grenade/throw_at()
+/obj/item/grenade/throw_at(atom/target, range, speed, mob/thrower, spin=1, diagonals_first = 0, datum/callback/callback, force, gentle = FALSE, quickstart = TRUE)
 	. = ..()
 	if(active)
 		addtimer(CALLBACK(src, PROC_REF(detonate)), det_time)
