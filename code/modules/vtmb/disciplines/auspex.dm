@@ -460,6 +460,32 @@ GLOBAL_LIST_EMPTY(auspex_users)
 	owner.soul_state = SOUL_PROJECTING
 
 /* ATOM */
+/atom/proc/auspex_moment(mob/user)
+	if(!HAS_TRAIT(user, AUSPEX_TRAIT))
+		return FALSE
+
+/atom/proc/get_direction(mob/user)
+	var/dir = get_dir(user, src)
+	var/napravlenie = ""
+	switch(dir)
+		if(NORTH)
+			napravlenie = "севера"
+		if(NORTHWEST)
+			napravlenie = "северо-запада"
+		if(NORTHEAST)
+			napravlenie = "северо-востока"
+		if(SOUTH)
+			napravlenie = "юга"
+		if(SOUTHEAST)
+			napravlenie = "юго-востока"
+		if(SOUTHWEST)
+			napravlenie = "юго-запада"
+		if(WEST)
+			napravlenie = "запада"
+		if(EAST)
+			napravlenie = "востока"
+
+	return napravlenie
 
 /atom
 	var/last_investigated = 0
