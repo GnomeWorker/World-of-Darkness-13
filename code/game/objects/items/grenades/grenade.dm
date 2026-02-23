@@ -209,6 +209,8 @@
 	for(var/mob/living/carbon/C in GLOB.auspex_users)
 		var/dist = get_dist(C, src)
 		var/napravlenie = get_direction(C)
+		if(!HAS_TRAIT(C, AUSPEX_TRAIT))
+			return
 		switch(dist)
 			if(0 to 7)
 				C.playsound_local(user, bomb_sound, 100, FALSE)
