@@ -250,8 +250,8 @@
 					impersonating_eyecolor = sanitize_hexcolor(new_eyes)
 				continue
 			if("Телосложени")
-				var/telo = input(owner, "Измени своё телосложение", "Изменчивость") as null|anything in list("Эндоморф", "Мезоморф", "Эктоморф")
-
+				var/list/body_types = list("Эндоморф", "Мезоморф", "Эктоморф")
+				var/telo = input(owner, "Измени своё телосложение", "Изменчивость") as null|anything in body_types
 				switch(telo)
 					if("Эндоморф")
 						impersonating_body_mod = "f"
