@@ -3219,11 +3219,13 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			character.yin_chi = yin
 			character.max_yin_chi = yin
 			character.max_demon_chi = po
+			character.dharma.willpower = dharma.level+4
 		else
 			character.yang_chi = 3
 			character.max_yang_chi = 3
 			character.yin_chi = 2
 			character.max_yin_chi = 2
+			character.dharma.willpower = 5
 
 	if(pref_species.name == "Werewolf")
 		switch(tribe.name)
